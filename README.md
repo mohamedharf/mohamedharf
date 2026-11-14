@@ -25,10 +25,10 @@
 
 ## 📌 Executive Summary
 
-I specialize in engineering production-ready, fault-tolerant enterprise backends, high-concurrency e-commerce engines, and autonomous data extraction pipelines. With deep expertise across the **Python**, **Django**, and **FastAPI** ecosystems, I design systems that balance robust business logic with high-throughput asynchronous execution, scalable relational schemas, and hardened security.
+I specialize in engineering production-ready, fault-tolerant enterprise backends, high-concurrency commerce engines, and autonomous data extraction pipelines. With deep expertise across the **Python**, **Django**, and **FastAPI** ecosystems, I design systems that balance robust domain business logic with high-throughput asynchronous execution, strictly modeled relational schemas, and hardened security.
 
-- 🏗️ **Enterprise Architecture**: Architecting multi-tenant ERP/CRM engines, wholesale/retail fulfillment workflows, and transactional billing backends.
-- ⚡ **High-Performance Pipelines**: Building distributed data scrapers, anti-bot mitigation engines, and OCR document processing pipelines with Celery and Redis.
+- 🏗️ **Enterprise Architecture**: Multi-tenant ERP/CRM engines, double-entry financial ledgers, multi-party settlement systems, and wholesale/retail fulfillment workflows.
+- ⚡ **High-Scale Pipelines & Automation**: Distributed web scraping infrastructure, anti-bot mitigation (undetected browser automation & fingerprint rotation), and Arabic OCR document pipelines with Celery and Redis.
 - 🛡️ **Production Reliability**: Containerized deployments with Docker, Linux system tuning, test-driven validation, and automated CI/CD delivery.
 
 ---
@@ -42,26 +42,42 @@ I specialize in engineering production-ready, fault-tolerant enterprise backends
 │    Scalable Web Systems       │  Automation & Scraping      │ Cloud & Ops   │
 │  • Multi-Tenant ERP & CRM     │  • Headless Browser Engines │  • Docker     │
 │  • B2B / B2C Hybrid Commerce  │  • Anti-Bot Fingerprinting  │  • Celery     │
-│  • Dynamic Pricing Engines    │  • Arabic OCR & PDF Parsing │  • Redis      │
+│  • Financial Settlement & POS │  • Arabic OCR & PDF Parsing │  • Redis      │
 │  • Secure RESTful API Design  │  • ETL & Data Normalization │  • Nginx      │
 └───────────────────────────────┴─────────────────────────────┴───────────────┘
 ```
 
-- **Enterprise Backend Systems**: Clean multi-tier service architectures using **Django** and **Django REST Framework (DRF)**. Designing domain models with strict isolation (cost masking, multi-role RBAC), audit logging, and transactional guarantees.
-- **Automation & Data Engineering**: Advanced browser automation via **Playwright** and **Selenium-Stealth** capable of bypassing Cloudflare and bot-detection mechanisms; automated Arabic OCR indexing with **Tesseract**; asynchronous scheduling and worker distribution.
-- **System Integration & Infrastructure**: Decoupled task queues with **Celery** and **Redis**, containerized microservices via **Docker & Docker Compose**, production reverse proxy orchestration via **Nginx**, and automated linting/testing pipelines via **GitHub Actions**.
+- **Enterprise Backend Systems**: Clean multi-tier service architectures using **Django**, **Django REST Framework (DRF)**, and **FastAPI**. Designing domain models with strict isolation (cost masking, multi-role RBAC), audit logging, and ACID transactional guarantees.
+- **Automation & Data Engineering**: Advanced browser automation via **Playwright**, **Selenium-Stealth**, and **Undetected-ChromeDriver** capable of bypassing Cloudflare and bot-detection mechanisms; automated Arabic OCR indexing with **Tesseract**; asynchronous scheduling and worker distribution.
+- **System Integration & Infrastructure**: Decoupled task queues with **Celery** and **Redis**, containerized microservices via **Docker & Docker Compose**, production reverse proxy orchestration via **Nginx**, and automated testing/delivery pipelines via **GitHub Actions**.
 
 ---
 
-## 🚀 Flagship Engineering Projects
+## 🚀 Public Engineering Portfolio & Flagship Systems
 
-| Project | System Architecture & Core Capabilities | Primary Tech Stack |
+### 1. Enterprise FinTech, HealthTech & ERP/CRM Platforms
+
+| Project | System Architecture & Core Capabilities | Tech Stack |
 | :--- | :--- | :--- |
-| [**MEN EL-MASNA3**](https://github.com/mohamedharf/men-elmasna3)<br>`men-elmasna3` | **Direct-to-Factory Hybrid B2C & B2B Knitwear E-Commerce & Fulfillment Platform**.<br>• Dynamic tiered wholesale pricing with minimum quantity and deposit validation.<br>• Strict factory isolation: sanitizes factory costs/identities from public and merchant APIs.<br>• Dual logistics engine (retail flat-rate vs. weight-calibrated wholesale across 27 governorates).<br>• Saturday batch fulfillment pipeline with courier webhook handling and COD controls. | `Python` `Django 5.1` `DRF` `React 18` `Vite` `PostgreSQL` `Tailwind CSS` `GitHub Actions` |
-| [**FreelanceOS**](https://github.com/mohamedharf/FreelanceOS)<br>`FreelanceOS` | **Autonomous AI Freelance Agency & Deal Lifecycle Operating System (v4.0)**.<br>• Coordinates 7 specialized autonomous agents (Scouting, Intelligence Profiler, Solution Architect, Proposal Strategist, Deal Room Negotiator, Workspace Orchestrator, Evolution Engine).<br>• Headless multi-platform scouting, client psychometrics, automated deal rooms, and sandboxed Git workspaces. | `Python 3.10+` `Django 5` `DRF` `React 18` `Playwright` `Celery` `Redis` `Tailwind CSS` |
-| [**TenderPulse**](https://github.com/mohamedharf/monaqasat-core)<br>`monaqasat-core` | **Government Procurement Intelligence Platform & Arabic OCR Pipeline**.<br>• Dual-engine scraping: Playwright headless browser for dynamic portals + Google Dorking fallback.<br>• Arabic OCR pipeline converting RFP PDFs into high-res images and indexing with Tesseract.<br>• Real-time dark-mode operational dashboard with live terminal stream and RESTful Excel/CSV export. | `Python` `Django` `DRF` `Playwright` `Tesseract OCR` `Celery` `Redis` `Docker` `PostgreSQL` |
+| [**Phyzioline**](https://github.com/mohamedharf/phyzioline-healthtech-platform)<br>`phyzioline-healthtech-platform` | **Next-Gen Enterprise Telehealth, Clinical EHR, Medical LMS & Financial Ledger CRM**.<br>• Unifies clinical physiotherapy, electronic health records (EHR), telemedicine consultations, and medical e-commerce.<br>• Features a mission-critical **double-entry financial ledger engine** and comprehensive multi-role CRM suite.<br>• High-concurrency asynchronous task handling, OpenAPI/Swagger API documentation, and Docker orchestration. | `Python 3.12+` `Django 5.2` `PostgreSQL 16` `Celery 5.5` `Redis` `Docker` `Swagger` |
+| [**Vaetcher**](https://github.com/mohamedharf/vaetcher)<br>`vaetcher` | **Enterprise Medical Hospitality Voucher & Multi-Party Settlement Engine**.<br>• Real-time cryptographic balance debiting at Point-of-Sale (POS) registers eliminating paper vouchers.<br>• **Multi-Voucher FIFO Waterfall Deduction Engine** & dynamic merchant markup network.<br>• Automated **Triple-Tier Financial Settlements** across pharma sponsors, hospitality venues, sales reps, and physicians.<br>• Vector CR80 digital pass generation and bi-directional Arabic PDF reporting engine. | `Python 3.11+` `Django 5.2` `Django Unfold` `Tailwind CSS` `i18n RTL/LTR` `ACID Audited` |
+| [**GMaps Lead CRM**](https://github.com/mohamedharf/-gmaps-lead-crm)<br>`-gmaps-lead-crm` | **End-to-End B2B Lead Generation, Async Email Enrichment & Sales CRM**.<br>• Automated lead extraction from Google Maps with anti-detection browser automation.<br>• Asynchronous corporate email hunting & enrichment pipeline with live log feeds.<br>• Tiered sales team distribution, multi-level commission tracking, and **Paymob online payment integration**. | `Python 3.12` `Django 6.0` `Selenium Stealth` `Tailwind CSS` `Bootstrap 5.3` `Paymob HMAC` |
+| [**MEN EL-MASNA3**](https://github.com/mohamedharf/men-elmasna3)<br>`men-elmasna3` *(Enterprise)* | **Direct-to-Factory Hybrid B2C & B2B Knitwear E-Commerce & Fulfillment Platform**.<br>• Dynamic tiered wholesale pricing with minimum thresholds and merchant deposit validation.<br>• Strict factory isolation: sanitizes factory costs/identities from public and merchant APIs.<br>• Dual logistics engine (retail flat-rate vs. weight-calibrated wholesale across 27 governorates) and Saturday batch fulfillment. | `Python` `Django 5.1` `DRF` `React 18` `Vite` `PostgreSQL` `Tailwind CSS` `GitHub Actions` |
+
+### 2. Autonomous AI Agents & Intelligent Automation
+
+| Project | System Architecture & Core Capabilities | Tech Stack |
+| :--- | :--- | :--- |
+| [**FreelanceOS**](https://github.com/mohamedharf/FreelanceOS)<br>`FreelanceOS` | **Autonomous AI Freelance Agency & Deal Lifecycle Operating System (v4.0)**.<br>• Coordinates **7 specialized autonomous agents** (Lead Scout, Intelligence Profiler, Solution Architect, Proposal Strategist, Deal Room Negotiator, Workspace Orchestrator, Evolution Engine).<br>• Headless multi-platform scouting across 6 international platforms, client psychometrics, interactive deal rooms, and sandboxed Git workspaces. | `Python 3.10+` `Django 5` `DRF` `React 18` `Playwright` `Celery` `Redis` `Tailwind CSS` |
+| [**TubePulse AI**](https://github.com/mohamedharf/tubepulse-ai)<br>`tubepulse-ai` | **YouTube Channel Intelligence, Algorithmic SEO & Stealth Studio Automation Engine**.<br>• Bridges algorithmic SEO evaluation with undetectable browser automation (`undetected-chromedriver`).<br>• Automated YouTube Studio management, metadata optimization, competitor gap heuristics, and task scheduling.<br>• Dockerized deployment with 100% test coverage across core extraction and execution modules. | `Python 3.11+` `Django 5.1` `Selenium 4.20+` `Undetected-ChromeDriver` `Docker` `GitHub Actions` |
+| [**Maraya**](https://github.com/mohamedharf/mirror-mind-)<br>`mirror-mind-` | **Behavioral Reflection Engine & Privacy-Centric Personal Intelligence Platform**.<br>• Mirrored human behavioral analysis through asynchronous cognitive ingestion and multi-horizon analytics.<br>• On-device local speech-to-text synthesis via **Faster-Whisper (CTranslate2)**.<br>• Decoupled Celery worker pools, Redis caching, and offline-capable React PWA frontend. | `Python` `Django` `React PWA` `Faster-Whisper` `Celery` `Redis` `OAuth2` |
+
+### 3. Data Engineering, High-Scale Scraping & OCR Pipelines
+
+| Project | System Architecture & Core Capabilities | Tech Stack |
+| :--- | :--- | :--- |
+| [**TenderPulse**](https://github.com/mohamedharf/monaqasat-core)<br>`monaqasat-core` | **Government Procurement Intelligence Platform & Arabic OCR Pipeline**.<br>• Dual-engine scraping: Playwright headless browser for dynamic portals + Google Dorking archive fallback.<br>• Arabic OCR pipeline converting RFP PDFs into high-res images and indexing text with **Tesseract OCR**.<br>• Real-time dark-mode operational dashboard with live terminal stream and RESTful Excel/CSV export. | `Python` `Django` `DRF` `Playwright` `Tesseract OCR` `Celery` `Redis` `Docker` `PostgreSQL` |
 | [**Perenual Plant Scraper**](https://github.com/mohamedharf/scrap_plan)<br>`scrap_plan` | **Botanical Species Extraction Engine & Searchable Catalog**.<br>• Headless Selenium automation handling infinite-scroll pagination paired with BeautifulSoup4 parsing.<br>• Browser-based control dashboard with start/stop toggles, auto-polling log stream, and multi-field deduplication.<br>• Automated local image archiving and full-text faceted botanical catalog. | `Python` `Django` `Selenium` `BeautifulSoup4` `SQLite` `Bootstrap` `Requests` |
-| [**OmniLead Sales Intelligence**](https://github.com/mohamedharf/manegment-seals)<br>`manegment-seals` | **Stealth B2B Lead Scraping & Sales Management CRM**.<br>• High-volume Google Maps business scraping engine utilizing `Selenium-Stealth` and fingerprint rotation.<br>• Real-time database deduplication engine cutting extraction runtime by 70%.<br>• Comprehensive lead enrichment pipeline and deal lifecycle management. | `Python` `Django` `DRF` `Selenium-Stealth` `SQLite/PostgreSQL` `JavaScript` `HTML5/CSS3` |
 
 ---
 
@@ -101,8 +117,12 @@ I specialize in engineering production-ready, fault-tolerant enterprise backends
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mohamedharf&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Mohamed's GitHub Stats" height="175" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedharf&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="175" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamedharf&theme=tokyonight" alt="Mohamed's GitHub Profile Details" width="49%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedharf&theme=tokyonight" alt="Top Languages by Repo" width="49%" />
+
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com/?user=mohamedharf&theme=tokyonight&hide_border=true" alt="Mohamed's Streak Stats" width="60%" />
 
 </div>
 
@@ -130,4 +150,3 @@ I welcome discussions regarding senior backend engineering roles, enterprise arc
 | **Telegram** | [`@mohamedharf`](https://t.me/mohamedharf) |
 | **WhatsApp** | `@mohamed.harf` |
 | **Facebook** | [`facebook.com/share/14ukUnxASnF/`](https://www.facebook.com/share/14ukUnxASnF/) |
-
