@@ -17,7 +17,7 @@
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Mohamedharf@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mohamedharf)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/14ukUnxASnF/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/?text=Hello%20Mohamed)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201070488898)
 
 ---
 
@@ -200,6 +200,7 @@ I welcome discussions regarding senior backend engineering roles, enterprise arc
 [![Email](https://img.shields.io/badge/Email-Direct_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Mohamedharf@gmail.com)
 [![Telegram](https://img.shields.io/badge/Telegram-Message-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/mohamedharf)
 [![Facebook](https://img.shields.io/badge/Facebook-Profile-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/14ukUnxASnF/)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/201070488898)
 
 </div>
 
@@ -210,5 +211,5 @@ I welcome discussions regarding senior backend engineering roles, enterprise arc
 | **Email** | [`Mohamedharf@gmail.com`](mailto:Mohamedharf@gmail.com) |
 | **LinkedIn** | [`linkedin.com/in/mohamed-harf-3218`](https://www.linkedin.com/in/mohamed-harf-3218) |
 | **Telegram** | [`@mohamedharf`](https://t.me/mohamedharf) |
-| **WhatsApp** | `@mohamed.harf` |
+| **WhatsApp** | [`+20 107 048 8898`](https://wa.me/201070488898) |
 | **Facebook** | [`facebook.com/share/14ukUnxASnF/`](https://www.facebook.com/share/14ukUnxASnF/) |
