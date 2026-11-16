@@ -175,16 +175,11 @@ I approach software engineering with a staff-level focus on operational predicta
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 Repository Languages Distribution
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohamedharf&theme=tokyonight" alt="Mohamed's GitHub Profile Details" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedharf&theme=tokyonight" alt="Top Languages by Repo" width="49%" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com/?user=mohamedharf&theme=tokyonight&hide_border=true" alt="Mohamed's Streak Stats" width="60%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohamedharf&theme=tokyonight" alt="Top Languages by Repo" width="55%" />
 
 </div>
 
